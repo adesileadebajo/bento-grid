@@ -1,0 +1,127 @@
+.parent-container {
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-columns: 200px 400px 200px;
+    grid-template-rows: repeat(3,1fr);
+    gap: 20px;
+    padding: 20px 20px;
+    border: 50px;
+}
+
+.body {
+    color: black;
+}
+
+.box-create {
+    margin-bottom: 0px;
+    padding: 20px;
+    border-radius: 7px;
+    background-color: hsl(31, 66%, 93%);
+    grid-area: 1 / 1 / 2.4 / 2;
+    height: 280px;
+    width: 165px;
+}
+
+#quicker {
+    color: hsl(256, 67%, 59%);
+}
+
+.box-social {
+    padding: 20px;
+    border-radius: 7px;
+    background-color: hsl(256, 67%, 59%);
+    color: hsl(0, 0%, 100%);
+    grid-column: span 1;
+    grid-row: span 2;
+    height: 190px;
+    width: 350px;
+    text-align: center;
+}
+
+.box-schedule {
+    background-color: hsl(254, 88%, 90%);
+    grid-column: span 1;
+    grid-row: span 2;
+    width: 200px;
+    height: 420px;
+    padding: 20px;
+    border-radius: 7px;
+    margin-bottom: -100px;
+    margin-left: -10px;
+}
+
+.box-write {
+    background-color: hsl(39, 100%, 71%);
+    height: 300px;
+    width: 165px;
+    padding: 20px;
+    border-radius: 7px;
+    grid-template-rows: 3;
+    grid-template-columns: 1;
+    grid-row: span 2;
+    grid-column: span 1;
+    margin-top: -0px;
+}
+
+.box-manage {
+    background-color: hsl(0, 14%, 99%);
+    width: 140px;
+    height: 160px;
+    padding: 20px;
+    border-radius: 7px;
+    grid-column: 2;
+    margin-top: -420px;
+}
+
+.box-maintain {
+    background-color: hsl(39, 100%, 71%);
+    width: 140px;
+    height: 160px;
+    margin-top: -420px;
+    margin-bottom: -800px;
+    margin-left: -220px;
+    padding: 20px;
+    border-radius: 7px;
+    
+}
+
+.box-fiftysix {
+    background-color: hsl(0, 14%, 99%);
+    width: 140px;
+    height: 160px;
+    text-align: justify;
+    grid-column: 2;
+    padding: 20px;
+    border-radius: 7px;
+    grid-template-columns: 2;
+    grid-template-rows: 3;
+    margin-top: -540px;
+}
+
+.box-grow {
+    color: hsl(254, 88%, 90%);
+    background-color: hsl(256, 67%, 59%);
+    grid-template-columns: 3;
+    grid-template-rows: 3;
+    height: 155px;
+    width: 410px;
+    padding: 20px;
+    border-radius: 7px;
+    margin-top: -535px;
+    margin-left: -220px;
+}
+
+#tenx {
+    color: hsl(39, 100%, 71%);
+}
+
+@media (max-width: 208px) {
+    .grid-container {
+      grid-template-columns: 1fr; 
+      padding: 1rem;
+    }
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
